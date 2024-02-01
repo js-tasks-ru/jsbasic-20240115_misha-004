@@ -15,11 +15,6 @@ let calculator = {
  
 };
 
-calculator.read(3, 5);
-calculator.sum();
-calculator.mul();
-
-
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
 // \
